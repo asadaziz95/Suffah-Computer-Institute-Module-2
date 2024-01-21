@@ -1,0 +1,91 @@
+/* *{
+     background-color: aquamarine;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+* {
+    font-family: Arial, Verdana, sans-serif;}
+    h1 {
+    font-family: "Courier New", monospace;} 
+body{
+    font-size: 24px;
+}
+h1 , h2 {
+    color: palevioletred;
+    background-color: bisque;
+}
+/* h2{
+    background-color: blue;
+}
+p{
+    color: lightslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+   color: royalblue; 
+}
+i{
+    color: blueviolet;
+}
+.heading2{
+    color: coral;
+}
+#intro{
+    color: red;
+}
+ul > li {
+    color: crimson;
+}
+p > a {
+    color: blueviolet;
+}
+p > b >a {
+    color: darkblue;
+}
+p a {
+    background-color: rosybrown;
+}
+h1 p{
+    background-color: blueviolet;
+}
+.pColor {
+    color:brown;
+    font-size: 20px;
+}
+b {
+    background-color: pink;} 
+p b {
+    background-color: black;
+} */
+/* h1~p{
+   background-color: darkgoldenrod; 
+} */
+
+/* * {
+    font-family: Arial, Verdana, sans-serif;} */
+    body{
+        font-family: Arial, Verdana, sans-serif;
+color: #665544;
+padding: 10px;
+    }
+    .page {
+         border: 10px solid red ; /*wsc*( width style color) */
+        background-color: #efefef;
+        padding: inherit;} 
+        
+    h1 {
+    font-family: "Courier New", monospace;}
+    i {
+    color: green;}
+    i {
+    color: red;}
+    b {
+    color: pink;}
+    p b {
+    color: blue !important;}
+    p b {
+    color: violet;}
+    p#intro {
+    font-size: 100%;}
+    p {
+    font-size: 75%;}
