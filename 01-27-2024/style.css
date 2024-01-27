@@ -1,0 +1,46 @@
+body{
+    /* background-color: black; */
+    /* color: #fff649ef; */
+    color: rgb(10, 150, 200);
+}
+h1{
+    background-color: aquamarine;
+}
+ul{
+
+background-color: #555400;
+}
+
+p{
+    /* background-color: chocolate; */
+}
+
+img {
+    opacity: 1.0;
+  }
+  
+  img:hover {
+    opacity: 0.5;
+    /* height:200px; */
+    border:1px solid blue
+  }
+  .container{
+    height: 200px;
+    background-color: bisque;
+  }
+  div {
+    background-color: #04AA6D;
+    padding: 10px;
+  }
+  
+  div.first {
+    background: rgba(4, 170, 109, 0.1);
+  }
+  
+  div.second {
+    opacity: 0.3;
+  }
+  
+  div.third {
+    opacity: 0.6;
+  }  
