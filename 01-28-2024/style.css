@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Suffah';
+    src: url('fonts/ChunkFive-Regular.otf');}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+h1, h2 {
+    font-family: Suffah, Georgia, serif;}
+
+.credits {
+    font-family: Suffah, Courier,
+    monospace;
+    font-style: italic;
+}
+.dyamic-text{
+text-transform: lowercase;
+/* text-transform: capitalize;
+text-transform: uppercase; */
+}
