@@ -1,13 +1,17 @@
 @font-face {
     font-family: 'Suffah';
     src: url('fonts/ChunkFive-Regular.otf');}
+@font-face {
+    font-family: SuffahFunky;
+    src: url('fonts/Honk-Regular-VariableFont_MORF\,SHLN.ttf');
+}
 
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
 }
 h1, h2 {
-    font-family: Suffah, Georgia, serif;}
+    font-family: SuffahFunky, Georgia, serif;}
 
 .credits {
     font-family: Suffah, Courier,
@@ -15,7 +19,14 @@ h1, h2 {
     font-style: italic;
 }
 .dyamic-text{
+    background-color: bisque;
 text-transform: lowercase;
 /* text-transform: capitalize;
 text-transform: uppercase; */
+/* text-decoration: underline; */
+/* text-decoration: overline; */
+/* text-decoration: line-through; */
+/* text-decoration: blink; */
+font-size: 30px;
+
 }
