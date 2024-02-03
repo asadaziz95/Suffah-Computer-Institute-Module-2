@@ -1,0 +1,81 @@
+.main{
+    border: 2px solid rebeccapurple;
+    height: 200px;
+    width: 50%;
+    background-color: bisque;
+}
+/* .text{
+    display: none;
+}
+div:hover p {
+    display: block;
+  }
+
+  p i:first-child {
+    color: blue;
+  } 
+
+  q:lang(no) {
+    quotes: "*" "*"; */
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/:lang */
+    /* https://www.w3schools.com/css/css_pseudo_elements.asp */
+/*
+.text{
+    font-size: 16px;
+    font-weight: 900;
+    /* line-height: 5px; */
+    /* letter-spacing: 10px;*/
+    /* word-spacing: 5px;
+    text-align: left;
+    /* text-indent: 50px;
+
+    background-color: #eeeeee;
+color: #666666;
+text-shadow: 0px 1px 3px #05e70e;
+} 
+
+*/
+/* .text:first-letter{
+    font-size: 50px;
+}
+.text::first-line{
+    font-style: italic;
+} */
+
+/* a:link {
+    color: rgb(6, 218, 255);
+    text-decoration: none;}
+    a:visited {
+    color: black;}
+    a:hover {
+    color: green;
+    text-decoration: underline;
+    font-size: 18px;
+}
+    a:active {
+    color: darkcyan;} */
+    /* div:hover {
+        background-color: blue;
+      } */
+
+        input {
+            padding: 6px 12px 6px 12px;
+            border: 2px solid #665544;
+            /* color: #ffffff; */
+        }
+        
+        input.submit:hover {
+            background-color: #ff0000;
+        }
+    
+        input.submit:active {
+            background-color: rgb(0, 255, 42);
+        }
+    
+        input.text {
+            color: #cccccc;
+        }
+    
+        input.text:focus {
+            color: #88010c;
+        }
