@@ -1,0 +1,89 @@
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  div {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  div:hover {
+    background-color: blue;
+    height:20px;
+    border:10px solid red;
+    font-size:30px;
+    text-align: left;
+  }
+
+
+  /* li:first-child {
+    color: green;
+  } */
+
+  ul li:first-child {
+    color: green;
+  }
+
+  ol li:first-child {
+    color: pink;
+  }
+
+
+  a.one:link {color:#ff0000;}
+a.one:visited {color:#0000ff;}
+a.one:hover {color:#ffcc00;}
+
+a.two:link {color:#ff0000;}
+a.two:visited {color:#0000ff;}
+a.two:hover {font-size:150%;}
+
+a.three:link {color:#ff0000;}
+a.three:visited {color:#0000ff;}
+a.three:hover {background:#66ff66;}
+
+a.four:link {color:#ff0000;}
+a.four:visited {color:#0000ff;}
+a.four:hover {font-family:monospace;}
+
+a.five:link {color:#ff0000;text-decoration:none;}
+a.five:visited {color:#0000ff;text-decoration:none;}
+a.five:hover {text-decoration:underline;}
+
+input:focus {
+  background-color: yellow;
+  border:10px solid orange;
+  color:green;
+  font-family:monospace
+}
+
+p.line::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+h1::before {
+  content: url(https://www.w3schools.com/css/smiley.gif);
+  /* display: inline-block;
+  width: 15px;
+  height: 15px; */
+}
+h1::after {
+  content:  url(https://www.w3schools.com/css/smiley.gif);
+}
+

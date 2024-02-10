@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS class</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        
+<h2>Styling a link depending on state</h2>
+
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+
+<p>Mouse over the div element below to change its background color:</p>
+
+<div>Mouse Over Me</div>
+
+<ul>
+    <li>Li 1</li>
+    <li>Li 2</li>
+    <li>Li 3</li>
+    <li>Li 4</li>
+    <li>Li 5</li>
+    <li>Li 6</li>
+</ul>
+
+<ol>
+    <li>Li 1</li>
+    <li>Li 2</li>
+    <li>Li 3</li>
+    <li>Li 4</li>
+    <li>Li 5</li>
+    <li>Li 6</li>
+</ol>
+
+<h2>Styling Links</h2>
+
+<p>Mouse over the links and watch them change layout:</p>
+
+<p>
+    <b><a class="one" href="default.asp" target="_blank">This link changes color</a></b></p>
+
+
+
+
+<p><b><a class="two" href="default.asp" target="_blank">This link changes font-size</a></b></p>
+<p><b><a class="three" href="default.asp" target="_blank">This link changes background-color</a></b></p>
+<p><b><a class="four" href="default.asp" target="_blank">This link changes font-family</a></b></p>
+<p><b><a class="five" href="default.asp" target="_blank">This link changes text-decoration</a></b></p>
+
+<h2>Form</h2>
+<form action="/action_page.php" method="get">
+    First name: <input type="text" name="fname"><br><br>
+    Last name: <input type="text" name="lname"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<p class="line">You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.</p>
+
+
+<h2>psedo elements</h2>
+<h1 class="headingStyle">This is a heading</h1>
+<p>The ::before pseudo-element inserts content before the content of an element.</p>
+
+<h1>This is a heading</h1>
+
+<!-- https://www.w3schools.com/css/css_pseudo_elements.asp -->
+</body>
+</html>
