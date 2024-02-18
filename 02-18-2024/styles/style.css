@@ -1,0 +1,92 @@
+/* p.one { */
+    /* -moz-box-shadow: -5px -5px #777777;
+    -webkit-box-shadow: -5px -5px #777777;
+    box-shadow: -5px -5px #777777; */
+
+    /* -moz-box-shadow: 5px 5px 5px #777777;
+-webkit-box-shadow: 5px 5px 5px #777777;
+box-shadow: 5px 5px 5px #777777; */
+
+/* https://www.w3schools.com/cssref/css3_pr_box-shadow.php 
+}*/
+/* body{
+    background-image: url(../images/star.png);
+} */
+.parent{
+    height: 500px;
+    background-color: cadetblue;
+    font-size: 24px;
+    position: relative;
+    background-image: url(../images/star.png);
+}
+.one{
+    background-color: chartreuse;
+    position: relative;
+    top: 50px;
+    font-size: 10px;
+}
+/* .two{
+    background-color:violet;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+} */
+.two{
+    background-color:violet;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
+.three{
+    background-color: blueviolet;
+}
+/* ol{
+   list-style-type:lower-roman ; 
+}
+ul{
+    list-style-image: url('../images/star.png');
+} */
+
+ul{
+/* list-style-position: inside;
+list-style-type: square; */
+list-style: square inside;
+}
+
+
+/* body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #111111;}
+    table {
+    width: 600px;}
+    th, td {
+    padding: 7px 10px 10px 10px;}
+    th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;}
+    tr.even {
+    background-color: #efefef;}
+    tr:hover {
+    background-color: #c3e6e5;}
+    .money {
+    text-align: right;} */
+
+/* table.one-table{
+    empty-cells: hide;
+}
+    td{
+        padding: 10px;
+    } */
+
+    td {
+        background-color: #0088dd;
+        padding: 15px;
+        border: 2px solid #000000;}
+
+        table.one-table{
+    border-spacing: 5px 15px;
+}
