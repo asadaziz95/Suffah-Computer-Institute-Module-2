@@ -1,0 +1,67 @@
+#mainContent{
+    display: grid;
+    /* grid-template-areas: 
+    'header header header header header header'
+    'aside aside left left right right '
+    'aside aside footer footer footer footer'
+    ; */
+    grid-template-areas: 
+    'a a a a a a'
+    'b b c c d d'
+    'b b e e e e'
+    ;
+    /* grid-template-areas: this will not work because numbers are not accepted
+    '1 1 1 1 1 1'
+    '2 2 3 3 4 4'
+    '2 2 5 5 5 5'
+    ; */
+    text-align: center;
+}
+#mainContent > *{
+    border: 1px solid rebeccapurple;
+    padding: 20px;
+}
+#mainContent header{
+    /* grid-area: header; */
+    grid-area:a;
+}
+#mainContent aside{
+    /* grid-area: aside; */
+    grid-area:b;
+}
+
+#mainContent .left{
+    /* grid-area: left; */
+    grid-area:c;
+}
+
+#mainContent .right{
+    /* grid-area: right; */
+    grid-area:d;
+}
+#mainContent footer{
+    /* grid-area: footer; */
+    grid-area:e;
+}
+#boxSection{
+    margin-top: 40px;
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: 2fr 3fr 1fr;
+    /* gap: 10px; */
+    /* row-gap: ; */
+    /* column-gap: ; */
+    /* grid-template-rows: 2fr 3fr 1fr; */
+}
+.box{
+    border: 1px solid sienna;
+    padding: 20px;
+}
+#boxSection .box:first-child{
+    background-color: burlywood;
+    /* grid-column-start: 1 ;
+    grid-column-end: 3; */
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
