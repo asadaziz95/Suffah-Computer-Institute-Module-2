@@ -1,0 +1,11 @@
+.veg{
+    background-color: cadetblue;
+}
+
+.highlighted {
+    border: red 2px solid;
+    }
+
+.complete{
+    text-decoration: line-through;
+    }
